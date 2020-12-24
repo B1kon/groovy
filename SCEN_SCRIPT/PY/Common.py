@@ -59,3 +59,4 @@ def del_end_line(line):
 ##        line = tmp
     return(line.rstrip())
 #}
+11
