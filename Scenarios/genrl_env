@@ -1,0 +1,38 @@
+## environment for ALL scenarios
+
+
+## result for all TS
+RSLT_TS0_all ..\..\Test_Result\Result_TS0_all
+RSLT_TS1_all ..\..\Test_Result\Result_TS1_all
+RSLT_TS2_all ..\..\Test_Result\Result_TS2_all
+
+## results for Test_Suite_0
+RSLT1 ..\..\Test_Result\Result_TS001
+RSLT2 ..\..\Test_Result\Result_TS002
+RSLT3 ..\..\Test_Result\Result_TS003
+RSLT4 ..\..\Test_Result\Result_TS004
+RSLT5 ..\..\Test_Result\Result_TS005
+RSLT6 ..\..\Test_Result\Result_TS006
+RSLT7 ..\..\Test_Result\Result_TS007
+RSLT8 ..\..\Test_Result\Result_TS008
+RSLT9 ..\..\Test_Result\Result_TS009
+RSLT10 ..\..\Test_Result\Result_TS010
+RSLT11 ..\..\Test_Result\Result_TS011
+RSLT12 ..\..\Test_Result\Result_TS012
+RSLT13 ..\..\Test_Result\Result_TS013
+RSLT14 ..\..\Test_Result\Result_TS014
+RSLT15 ..\..\Test_Result\Result_TS015
+RSLT16 ..\..\Test_Result\Result_TS016
+RSLT17 ..\..\Test_Result\Result_TS017
+RSLT18 ..\..\Test_Result\Result_TS018
+RSLT19 ..\..\Test_Result\Result_TS019
+RSLT20 ..\..\Test_Result\Result_TS020
+
+## results for Test_Suite_1
+RSLT101 ..\..\Test_Result\Result_TS101
+RSLT102 ..\..\Test_Result\Result_TS102
+
+## results for Test_Suite_2
+RSLT201 ..\..\Test_Result\Result_TS201
+RSLT202 ..\..\Test_Result\Result_TS202
+RSLT203 ..\..\Test_Result\Result_TS203

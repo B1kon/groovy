@@ -1,0 +1,14 @@
+#	Run Test_Suite_2
+#
+
+#	define seve result directory
+#
+-env ..\..\Scenarios\genrl_env
+-save %RSLT_TS2_all%
+
+-loop_cnt 1
+..\..\Scenarios\TS2\scen_201
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS2\scen_202
+-end_loop

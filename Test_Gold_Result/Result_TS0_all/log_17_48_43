@@ -1,0 +1,864 @@
+========== LOG OF SCEN ..\..\Scenarios\TS0\scen_0 ==========
+Start TC_001_01
+ASSERTION: If PL_GetVersion returns PL_OK, the value >0
+was written by at least into one reference version _*
+
+TC_001_01 PASS
+Start TC_001_02
+ASSERTION: If the arguments of version is NULL, the result PL_GetVersion = PL_OK.
+
+TC_001_02 PASS
+Start TC_002_01
+ASSERTION: At result of PL_GetBoardCount = PL_OK,
+the count pointer contains number of the modules,
+ready to work
+count = 1
+TC_002_01 PASS
+Start TC_003_01
+ASSERTION: Variable board will be the module copy descriptor,
+if value of the index parameter in limits [0, count-1],
+where count from the PL_GetBoardCount.
+Result of function - PL_OK
+
+TC_003_01 PASS
+Start TC_003_02
+ASSERTION: The result PL_GetBoardDesc - PL_ERROR if
+ value of the index parameter is less than 0 
+or more count-1 value from the PL_GetBoardCount
+1111111
+2222222
+333333
+4444444
+5555555
+
+TC_003_02 PASS
+Start TC_003_03
+ASSERTION: If board is NULL and the driver of the board
+is available, the result PL_GetBoardDesc - PL_OK
+
+TC_003_03 PASS
+Start TC_003_04
+ASSERTION: The result of a repeated call of PL_GetBoardDesc
+with the same index will be PL_OK
+
+TC_003_04 PASS
+Start TC_003_05_Process
+ASSERTION: Process for tc003_05
+argc=2 argv[1]=0
+step 1 pid=0
+step 2 pid=0
+Start TC_003_05_Process
+ASSERTION: Process for tc003_05
+argc=2 argv[1]=1
+step 1 pid=1
+step 2 pid=1
+Start TC_003_05_Process
+ASSERTION: Process for tc003_05
+argc=2 argv[1]=2
+step 1 pid=2
+step 2 pid=2
+Start TC_003_05_Process
+ASSERTION: Process for tc003_05
+argc=2 argv[1]=3
+step 1 pid=3
+step 2 pid=3
+Start TC_003_05_Process
+ASSERTION: Process for tc003_05
+argc=2 argv[1]=4
+step 1 pid=4
+step 2 pid=4
+Start TC_003_05
+ASSERTION: The result of a repeated call of PL_GetBoardDesc
+with the same index, but in other task, will be PL_OK
+PARENT
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+pass_cnt=5 test_res=0
+
+TC_003_05 PASS
+Start TC_003_06
+ASSERTION: PL_GetBoardDesc can create descriptors for all modules, ready to work.
+
+TC_003_06 PASS
+Start TC_004_01
+ASSERTION: If the result PL_CloseBoardDesc - PL_OK,
+a descriptor of the module is removed
+
+TC_004_01 PASS
+Start TC_004_02
+ASSERTION: The result PL_CloseBoardDesc - PL_ ERROR,
+if the board argument is not a pointer
+to a handle to the module.
+
+TC_004_02 PASS
+Start TC_004_03
+ASSERTION: If object Board has object Access,
+then PL_CloseBoardDesc returns PL_AGAIN
+
+TC_004_03 PASS
+Start TC_004_04
+ASSERTION: The result of PL_CloseBoardDesc is independent of
+other module descriptors with the same index.
+
+TC_004_04 PASS
+Start TC_005_01
+ASSERTION: The result PL_ResetBoard - PL_ ERROR if 
+the argument of board isn't the index on a module
+
+TC_005_01 PASS
+Start TC_005_02
+ASSERTION: The result PL_ResetBoard - PL_OK,
+reset of the module is executed.
+All cores are ready to work
+Step -1 Check ARM
+status=0 PROGRAM_FINISHED=2
+Step 0 Check ARM
+status=0 PROGRAM_FINISHED=2
+Step 1 Check ARM
+status=0 PROGRAM_FINISHED=2
+Step 2 Check ARM
+status=0 PROGRAM_FINISHED=2
+Step 3 Check ARM
+status=0 PROGRAM_FINISHED=2
+Step NM_PC = {0,0} Check NM
+Step NM_PC = {1,0} Check NM
+Step NM_PC = {2,0} Check NM
+Step NM_PC = {3,0} Check NM
+Step NM_PC = {0,1} Check NM
+Step NM_PC = {1,1} Check NM
+Step NM_PC = {2,1} Check NM
+Step NM_PC = {3,1} Check NM
+Step NM_PC = {0,2} Check NM
+Step NM_PC = {1,2} Check NM
+Step NM_PC = {2,2} Check NM
+Step NM_PC = {3,2} Check NM
+Step NM_PC = {0,3} Check NM
+Step NM_PC = {1,3} Check NM
+Step NM_PC = {2,3} Check NM
+Step NM_PC = {3,3} Check NM
+Step -1 ARM Rst1
+Step 0 ARM Rst1
+Step 1 ARM Rst1
+Step 2 ARM Rst1
+Step 3 ARM Rst1
+Step NM_PC ={0,0} NM Rst1
+Step NM_PC ={1,0} NM Rst1
+Step NM_PC ={2,0} NM Rst1
+Step NM_PC ={3,0} NM Rst1
+Step NM_PC ={0,1} NM Rst1
+Step NM_PC ={1,1} NM Rst1
+Step NM_PC ={2,1} NM Rst1
+Step NM_PC ={3,1} NM Rst1
+Step NM_PC ={0,2} NM Rst1
+Step NM_PC ={1,2} NM Rst1
+Step NM_PC ={2,2} NM Rst1
+Step NM_PC ={3,2} NM Rst1
+Step NM_PC ={0,3} NM Rst1
+Step NM_PC ={1,3} NM Rst1
+Step NM_PC ={2,3} NM Rst1
+Step NM_PC ={3,3} NM Rst1
+
+TC_005_02 PASS
+Start TC_006_01
+ASSERTION: The result PL_GetSerialNumber - PL_ ERROR if
+the argument of board isn't the index on a module copy descriptor
+
+TC_006_01 PASS
+Start TC_006_02
+ASSERTION: If PL_GetSerialNumber returns PL_OK, the value >0
+was written by reference  serial_number
+    ERROR MESSAGE
+FOUND
+serial_number=0
+EXPECTED
+serial_number >0
+
+TC_006_02 FAIL
+Start TC_006_03
+ASSERTION: If the argument of serial_number is NULL,
+the result PL_GetVersion = PL_ERROR
+
+TC_006_03 PASS
+Start TC_006_04
+ASSERTION: For module descriptors with the same index,
+serial_number is the same
+
+TC_006_04 PASS
+Start TC_007_01
+ASSERTION: The result PL_GetFirmwareVersion - PL_ ERROR if
+the argument of board isn't the index on a module copy descriptor
+
+TC_007_01 PASS
+Start TC_007_02
+ASSERTION: If PL_GetFirmwareVersion returns PL_OK,
+the value >0 was written by at least into one reference version _*
+
+TC_007_02 PASS
+Start TC_007_03
+ASSERTION: If at least one the argument of version is NULL,
+the result PL_GetFirmwareVersion = PL_ERROR
+
+TC_007_03 PASS
+Start TC_007_04
+ASSERTION: Module descriptors with the same index,
+show the same firmware version
+
+TC_007_04 PASS
+Start TC_008_01
+ASSERTION: If argument board is not created by PL_GetBoardDesc
+then PL_GetAccess returns PL_ERROR
+
+TC_008_01 PASS
+Start TC_008_02
+ASSERTION: A) Result of PL_GetAccess = PL_ERROR, if
+        coreNo.nm_id value is out of segment [-1, 3],
+        and coreNo.cluster_id value in segment [0, 3].
+B) Result of PL_GetAccess = PL_ERROR, if
+        coreNo.nm_id value is in segment [-1, 3], and
+        coreNo.cluster_id value out of segment [-1, 3].
+C) Result of PL_GetAccess = PL_ERROR, if
+        coreNo.nm_id value is not equal -1, but
+        coreNo.cluster_id value is equal -1.
+
+TC_008_02 PASS
+Start TC_008_03_0
+ASSERTION: If coreNo.nm_id value is in segment [0, 3],
+and coreNo.cluster_id value is in segment [0, 3], then
+result of PL_GetAccess = PL_OK and the argument 'access'
+refers to NeoroMatrix object according to coreNo
+
+TC_008_03_0 PASS
+Start TC_008_03_1
+ASSERTION: If coreNo.nm_id value is equal -1,
+and coreNo.cluster_id value is in segment [-1, 3], then
+result of PL_GetAccess = PL_OK and the argument 'access'
+refers to ARM object according to coreNo
+
+TC_008_03_1 PASS
+Start TC_008_04_0
+ASSERTION: Function PL_GetAccess can create more then
+one object Access for the same index.
+Calling PL_GetAccess in a one task
+
+TC_008_04_0 PASS
+Start TC_008_04_1_Process
+ASSERTION: Process for tc_008_04_1
+argc=2 argv[1]=0
+step 2 pid=0
+Start TC_008_04_1
+ASSERTION: Function PL_GetAccess can create more then
+one object Access for the same index.
+Calling PL_GetAccess in a other tasks
+PARENT
+check_proc_res test_res=0 find_res=2
+
+TC_008_04_1 PASS
+Start TC_009_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_CloseAccess returns PL_ERROR
+
+TC_009_01 PASS
+Start TC_009_02
+ASSERTION: If PL_CloseAccess returns PL_OK, then object Access is deleted
+(i.e. the object Board can be deleted).
+
+TC_009_02 PASS
+Start TC_009_03
+ASSERTION: PL_CloseAccess returns PL_AGAIN if
+other operation LLC is working.
+
+TC_009_03 PASS
+Start TC_009_04_Process
+ASSERTION: Process for tc009_04
+argc=2 argv[1]=0
+step 1 pid=0
+step 2 pid=0
+Start TC_009_04_Process
+ASSERTION: Process for tc009_04
+argc=2 argv[1]=1
+step 1 pid=1
+step 2 pid=1
+Start TC_009_04_Process
+ASSERTION: Process for tc009_04
+argc=2 argv[1]=2
+step 1 pid=2
+step 2 pid=2
+Start TC_009_04_Process
+ASSERTION: Process for tc009_04
+argc=2 argv[1]=3
+step 1 pid=3
+step 2 pid=3
+Start TC_009_04_Process
+ASSERTION: Process for tc009_04
+argc=2 argv[1]=4
+step 1 pid=4
+step 2 pid=4
+Start TC_009_04
+ASSERTION: The result PL_Close Access does not depend on
+the existence of objects Access other descriptor
+module with the same index
+PARENT
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+check_proc_res test_res=0 find_res=2
+STEP 9
+
+TC_009_04 PASS
+Start TC_010_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_LoadProgramFile returns PL_ERROR
+
+TC_010_01 PASS
+Start TC_010_02
+ASSERTION: If argument filename is not path to file,
+then PL_LoadProgramFile returns PL_FILE
+
+TC_010_02 PASS
+Start TC_010_03_0
+ASSERTION: Access defines a Neuromatrix object.
+If file is not executable ELF code for NM,
+then PL_LoadProgramFile returns PL_FILE
+
+TC_010_03_0 PASS
+Start TC_010_03_1
+ASSERTION: Access defines a ARM object.
+If file is not executable ELF code for ARM,
+then PL_LoadProgramFile returns PL_FILE
+
+TC_010_03_1 PASS
+Start TC_010_04_0
+ASSERTION: If some segment of code should be loaded into one
+of protected memory areas (REG_protect or CCPU_protec), then
+PL_LoadProgramFile returns PL_BADADDRESS
+Case nm_REG_protect No ={2,2}
+Case arm_REG_protect Claster No ={-1,2}
+Case arm_REG_protect CCPU No ={-1,-1}
+Case arm_protect No ={-1,-1}
+
+TC_010_04_0 PASS
+Start TC_010_04_1
+ASSERTION: If some segment of code should be loaded into
+absent area of memory, thenPL_LoadProgramFile returns PL_BADADDRESS
+
+TC_010_04_1 PASS
+Start TC_010_05
+ASSERTION: If result of PL_Load_Program_File is PL_OK, then
+executable ELF code has been loaded for execution
+in the space defined by the program memory card and
+the running processor corresponds to the value coreNo
+
+TC_010_05 PASS
+Start TC_010_06_0
+ASSERTION: Executable ELF code can work in all memory areas
+available for writing.
+ARM - point in bytes. NM - point in 32words. 
+ARM CCPU (0x800-0x5FFFF),(0x100000-0x1FFFFFFF)
+ARM PC (0x800-0x3FFFF),(0x100000 – 0x2FFFFF),(0x300000-0x1FFFFFFF)
+NM (0x200-0x1FFFF), (0x40000-0xBFFFF), (0xC0000-0xCFFFF), (0xD0000-0x07FFFFFF)
+Processor NM segment address (200,200)
+Processor NM segment address (40000,40000)
+Processor NM segment address (c0000,c0000)
+    ERROR MESSAGE
+FOUND
+Processor NM segment address (c0000,c0000)
+ PL_SyncArray returns PL_TIMEOUT 2
+EXPECTED
+PL_SyncArray returns PL_OK
+
+TC_010_06_0 FAIL
+Start TC_010_06_1
+ASSERTION: Executable ELF code can work in all memory areas
+available for writing.
+Load segment addressing with base offset.
+Processor PC segment address (c0000800,c0000800)
+Processor CCPU segment address (60100000,60100000)
+
+TC_010_06_1 PASS
+Start TC_010_07_0
+ASSERTION: The result PL_LoadProgramFile = PL_ERROR if
+loading is performed during operation of the other
+nm-program (for NM-processor) or arm-program (for ARM processor)
+Case – one Access in one task.
+
+TC_010_07_0 PASS
+Start TC_010_07_1_Process
+ASSERTION: Process for tc010_07_1
+argc=2 argv[1]=0
+step 2 pid=0
+Start TC_010_07_1_Process
+ASSERTION: Process for tc010_07_1
+argc=2 argv[1]=1
+step 2 pid=1
+Start TC_010_07_1
+ASSERTION: Created two accesses with the same index in different tasks.
+If the program is loaded on one Access, then result
+of loading the program on another Access is PL_ERROR.
+
+PARENT
+check_proc_res test_res=0 find_res=2
+PARENT
+check_proc_res test_res=0 find_res=2
+
+TC_010_07_1 PASS
+Start TC_010_08
+ASSERTION: Work of the PL_Sync function does not interfere
+to work of PL_LoadProgramFile with the same Access
+
+TC_010_08 PASS
+Start TC_011_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_WriteMemBlock  returns PL_ERROR
+
+TC_011_01 PASS
+Start TC_011_02
+ASSERTION: If address points into protected memory, then
+PL_WriteMemBlock returns PL_BADADDRESS.
+Protected arrays:
+    NM [0x20000, 0x3FFFF]
+    ARM PC [0x80000, 0xFFFFF]
+    ARM CCPU [0x60000, 0xFFFFF]
+Core NM 
+Processor NM addr 1ffff size 2
+Processor NM addr 3ffff size 2
+Core PC 
+Processor PC addr 80000 size 1
+Processor PC addr fffff size 2
+Core CCPU 
+Processor CCPU addr 5ffff size 2
+Processor CCPU addr 80000 size 2
+Processor CCPU addr fffff size 2
+
+TC_011_02 PASS
+Start TC_011_03
+ASSERTION: If address points into not existed memory
+then PL_WriteMemBlock returns PL_BADADDRESS
+Absent arrays:
+For NM >0х3FFFFFFF, For ARM PC	[0x40000, 0x7FFFF].
+
+TC_011_03 PASS
+Start TC_011_04
+ASSERTION: If PL_WriteMemBlock returns PL_OK, then data
+from area "block" by size "len" are loaded
+into board with starting address "address"
+Processor NM
+Write addr 80000 size 5
+Write addr 80001 size 3
+Processor ARM
+Write addr 20000 size 5
+Write addr 20004 size 3
+
+TC_011_04 PASS
+Start TC_011_05
+ASSERTION: If argument len = 0, then any dates are not loaded into board and
+PL_WriteMemBlock returns PL_OK.
+Processor NM
+Write addr 80000 size 5
+Buffer[0]=afafafaf
+Write addr 80001 size 0
+Buffer[0]=0
+Processor ARM
+Write addr 20000 size 5
+Buffer[0]=afafafaf
+Write addr 20004 size 0
+Buffer[0]=0
+
+TC_011_05 PASS
+Start TC_011_06
+ASSERTION: PL_WriteMemBlock can load data in all memory
+areas available for writing.
+ARM - point in bytes. NM - point in 32words.
+ARM CCPU (0x000-0x5FFFF),(0x100000-0x1FFFFFFF)
+ARM PC (0x000-0x3FFFF),(0x100000–0x2FFFFF),(0x300000-0x1FFFFFFF)
+NM (0x200-0x1FFFF),(0x40000-0xBFFFF),(0xC0000-0xCFFFF),(0xD0000-0x07FFFFFF)
+Check memory areas NM
+NM step 0 address=0 size=2000
+NM step 1 address=40000 size=20000
+NM step 1 address=60000 size=20000
+NM step 1 address=80000 size=20000
+NM step 1 address=a0000 size=20000
+NM step 2 address=c0000 size=10000
+NM step 3 address=d0000 size=10000
+NM step 4 address=7fff000 size=1000
+Check memory areas PC
+PC step 0 address=0 size=10000
+PC step 1 address=100000 size=4000
+PC step 2 address=2f0000 size=4000
+PC step 3 address=300000 size=400
+PC step 4 address=1ffff000 size=400
+Check memory areas CCPU
+CCPU step 0 address=0 size=18000
+CCPU step 1 address=100000 size=400
+CCPU step 2 address=1ffff000 size=400
+
+TC_011_06 PASS
+Start TC_011_07_0
+ASSERTION: PL_WriteMemBlock can load data in all memory
+areas available for writing. 
+Addressing with base offset.
+ARM CCPU (0x60000000-0x6005FFFF),(0x60100000-0x7FFFFFFF)
+ARM PC (0xС0000000-0xС003FFFF),(0xС0100000 – 0xС02FFFFF),(0xС0300000-0xDFFFFFFF)
+NM There are no  base addresses
+Check memory areas CCPU
+CCPU step 0 address=60001000 size=200
+CCPU step 1 address=60101000 size=200
+CCPU step 2 address=7ffff000 size=200
+Check memory areas PC
+PC step 0 address=c6001000 size=200
+PC step 1 address=c0101000 size=200
+PC step 2 address=c02f1000 size=200
+PC step 3 address=c0301000 size=200
+PC step 4 address=afff1000 size=200
+
+TC_011_07_0 PASS
+Start TC_011_07_1
+ASSERTION: PL_WriteMemBlock can load data in all memory
+areas available for writing. 
+Addressing with base offset in memory of another ARM.
+    Access (-1,1)
+    ARM CCPU (0x60000000-0x6005FFFF),(0x60100000-0x7FFFFFFF)
+    ARM PC (0xС0000000-0xС003FFFF),(0xС0100000 – 0xС02FFFFF),(0xС0300000-0xDFFFFFFF)
+NM There are no  base addresses
+Check memory areas CCPU
+CCPU step 0 address=60001000 size=200
+CCPU step 1 address=7ffff000 size=200
+CCPU step 2 address=1000 size=200
+Check memory areas PC
+PC step 0 address=c6001000 size=200
+PC step 1 address=c02f1000 size=200
+PC step 2 address=dfff1000 size=200
+PC step 3 address=1000 size=200
+PC step 4 address=1000 size=200
+
+TC_011_07_1 PASS
+Start TC_011_08
+ASSERTION: If address points into not existed memory or
+into protected memory, then
+PL_WriteMemBlock returns PL_BADADDRESS.
+Addressing with base offset.
+Protected arrays:
+    NM There are no  base addresses
+    ARM PC2 [0xС0080000, 0xС00FFFFF]
+    ARM CCPU [0x60060000, 0x600FFFFF]
+Absent arrays:
+    ARM PC2  [0xС0040000, 0xС007FFFF]
+Core PC 
+Processor PC addr c007ffff size 2
+Processor PC addr c00fffff size 2
+Core PC 
+Processor PC addr c0040000 size 1
+Processor PC addr c007ffff size 2
+Core CCPU 
+Processor CCPU addr 6005ffff size 2
+Processor CCPU addr 60080000 size 2
+Processor CCPU addr 600fffff size 2
+
+TC_011_08 PASS
+Start TC_012_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_ReadMemBlock returns PL_ERROR
+
+TC_012_01 PASS
+Start TC_012_02
+ASSERTION: If address points into not existed memory or
+into protected arrays
+then PL_ReadMemBlock returns PL_BADADDRESS
+Absent array:
+	NM >0х3FFFFFFF
+	ARM PC2	[0x40000,...,0x7FFFF]
+Protected array:
+	ARM PC2&CCPU [0x80000,...,0xFFFFF]
+
+Processor NM addr 3ffffffe size 3
+Processor NM addr 40000010 size 2
+Processor PC addr 3ffff size 2
+Processor PC addr 7ffff size 2
+Processor PC addr 7ffff size 2
+Processor PC addr fffff size 2
+Processor CCPU addr 7ffff size 2
+Processor CCPU addr fffff size 2
+
+TC_012_02 PASS
+Start TC_012_03
+ASSERTION: If PL_ReadMemBlock returns PL_OK,
+data from board starting with "address" by size "len"
+are loaded into PC area "block"
+
+TC_012_03 PASS
+Start TC_012_04
+ASSERTION: If argument len = 0, then no dates are loaded.
+PL_ReadMemBlock returns PL_OK.
+
+TC_012_04 PASS
+Start TC_012_05
+ASSERTION: PL_ReadMemBlock can read data from all
+memory areas available in board
+ARM CCPU (0x0-0x7FFFF),(0x100000-)
+ARM CPU (0x0-0x3FFFF),(0x100000-0x2FFFFF),(0x300000-)
+NM (0x0-0x1FFFF),(0x40000-0xBFFFF),(0xC0000-0xCFFFF),(0xD0000-)
+Processor NM. Check memory array 0x0 size 0x20000
+NM step 0 address=0 size=10000
+NM step 0 address=10000 size=10000
+Processor NM. Check memory array 0x40000 size 0x80000
+NM step 1 address=40000 size=10000
+NM step 1 address=50000 size=10000
+NM step 1 address=60000 size=10000
+NM step 1 address=70000 size=10000
+NM step 1 address=80000 size=10000
+NM step 1 address=90000 size=10000
+NM step 1 address=a0000 size=10000
+NM step 1 address=b0000 size=10000
+Processor NM. Check memory array 0xc0000 size 0x10000
+NM step 2 address=c0000 size=10000
+Processor NM. Check memory array 0xd0000 size 0x10000
+NM step 3 address=d0000 size=10000
+Processor NM. Check memory array 0x7fff000 size 0x1000
+NM step 4 address=7fff000 size=1000
+Processor PC. Check memory array 0x0 size 0x40000
+PC step 0 address=0 size=10000
+Processor PC. Check memory array 0x100000 size 0x200000
+PC step 1 address=100000 size=10000
+PC step 1 address=104000 size=10000
+PC step 1 address=108000 size=10000
+PC step 1 address=10c000 size=10000
+PC step 1 address=110000 size=10000
+PC step 1 address=114000 size=10000
+PC step 1 address=118000 size=10000
+PC step 1 address=11c000 size=10000
+Processor PC. Check memory array 0x300000 size 0x10000
+PC step 2 address=300000 size=4000
+Processor PC. Check memory array 0x1ffff000 size 0x1000
+PC step 3 address=1ffff000 size=400
+Processor CCPU. Check memory array 0x0 size 0x80000
+CCPU step 0 address=0 size=10000
+CCPU step 0 address=4000 size=10000
+Processor CCPU. Check memory array 0x100000 size 0x10000
+CCPU step 1 address=100000 size=4000
+Processor CCPU. Check memory array 0x1ffff000 size 0x1000
+CCPU step 2 address=1ffff000 size=400
+
+TC_012_05 PASS
+Start TC_012_06_0
+ASSERTION: PL_ReadMemBlock can read data from all
+memory areas available in board
+Addressing with base offset.
+    ARM CCPU (0x60000000-0x6007FFFF),(0x60100000-)
+    ARM CPU2 (0xС0000000-0xС003FFFF),(0xС0100000-0xС02FFFFF),(0xС0300000-)
+     NM There are no base addresses
+Processor PC. Check memory array 0xc0000000 size 0x200
+PC step 0 address=c0001000 size=200
+Processor PC. Check memory array 0xc0100000 size 0x200
+PC step 1 address=c0101000 size=200
+Processor PC. Check memory array 0xc0300000 size 0x200
+PC step 2 address=c0301000 size=200
+Processor PC. Check memory array 0xdfffe000 size 0x200
+PC step 3 address=dffff000 size=200
+Processor CCPU. Check memory array 0x60000000 size 0x200
+CCPU step 0 address=60001000 size=200
+Processor CCPU. Check memory array 0x60100000 size 0x200
+CCPU step 1 address=60101000 size=200
+Processor CCPU. Check memory array 0x7fffe000 size 0x200
+CCPU step 2 address=7ffff000 size=200
+
+TC_012_06_0 PASS
+Start TC_012_06_1
+ASSERTION: PL_ReadMemBlock can read data from all
+memory areas available in board.
+Addressing with base offset in memory of another ARM.
+    Access (-1,1)
+    ARM CCPU (-1,-1) (0x60000000-0x6007FFFF),(0x60100000-)
+    ARM CPU2 (-1,2)(0xС0000000-0xС003FFFF),(0xС0100000-0xС02FFFFF),(0xС0300000-)
+     NM There are no base addresses
+Processor PC. Check memory array 0xc0000000 size 0x200
+PC step 0 address=c0001000 size=200
+Processor PC. Check memory array 0xc0100000 size 0x200
+PC step 1 address=c0101000 size=200
+Processor PC. Check memory array 0xc0300000 size 0x200
+PC step 2 address=c0301000 size=200
+Processor PC. Check memory array 0xdfffe000 size 0x200
+PC step 3 address=dffff000 size=200
+Processor CCPU. Check memory array 0x60000000 size 0x200
+CCPU step 0 address=60001000 size=200
+Processor CCPU. Check memory array 0x60100000 size 0x200
+CCPU step 1 address=60101000 size=200
+Processor CCPU. Check memory array 0x7fffe000 size 0x200
+CCPU step 2 address=7ffff000 size=200
+
+TC_012_06_1 PASS
+Start TC_012_07
+ASSERTION: If address points into not existed memory or
+into protected arrays then PL_ReadMemBlock returns PL_BADADDRESS.
+Addressing with base offset.
+Absent array:
+	ARM PC2	[0xC0040000,...,0xC007FFFF]
+Protected array:
+	ARM PC2	[0xC0080000,...,0xC00FFFFF]
+	CCPU [0x60080000,...,0x600FFFFF]
+
+Processor PC  coreNo={-1,2}
+Processor PC  coreNo={-1,2}
+Processor CCPU  coreNo={-1,-1}
+
+TC_012_07 PASS
+Start TC_013_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_Sync returns PL_ERROR
+
+TC_013_01 PASS
+Start TC_013_02
+ASSERTION: If synchronization has not done in time,
+defined by function PL_SetTimeout,
+then PL_Sync returns PL_TIMEOUT
+
+TC_013_02 PASS
+Start TC_013_03
+ASSERTION: If PL_Sync returns PL_OK, then synchronization
+and change values have done.
+For NM ("value" PC -> NM, "Value" NM -> PC) and
+for ARM ("value" PC -> ARM, "Value" ARM -> PC)
+Step 0
+Step 1
+
+TC_013_03 PASS
+Start TC_013_04
+ASSERTION: Two PL_Sync with the same Access are called.
+After call nsl_hostSync (acl_hostSync) response function,
+one PL_Sync function will finish with the result PL_OK,
+the other with the result PL_TIMEOUT.
+************** ThreadFunc   index = 1 j = 1
+************** ThreadFunc   index = 2 j = 2
+
+TC_013_04 PASS
+Start TC_014_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_SyncArray returns PL_ERROR
+
+TC_014_01 PASS
+Start TC_014_02
+ASSERTION: If synchronization has not done in time,
+defined by function PL_SetTimeout,
+then PL_SyncArray returns PL_TIMEOUT
+
+TC_014_02 PASS
+Start TC_014_03
+ASSERTION: If PL_SyncArray returns PL_OK, then
+synchronization and change values have done.
+For NM (value, outAddress, outLen PC -> NM;
+       returnValue, inAddress, inLen NM -> PC)
+For ARM (value, outAddress, outLen PC -> ARM;
+       returnValue, inAddress, inLen ARM -> PC).
+STEP 0
+STEP 1
+
+TC_014_03 PASS
+Start TC_014_04
+ASSERTION: If two PL_Sync(PL_SyncArray) functions are running
+for the same Access and response function ncl_hostSync (acl_hostSync)
+are not running, then the result of this functions are PL_TIMEOUT.
+Timeout is set.
+
+TC_014_04 PASS
+Start TC_015_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_GetStatus returns PL_ERROR
+
+TC_015_01 PASS
+Start TC_015_02
+ASSERTION: If NM or ARM program is not completed or
+not started, then the result PL_GetStatus= PL_OK
+and status is not equal PROGRAM_FINISHED.
+
+TC_015_02 PASS
+Start TC_015_03
+ASSERTION: At end of NM or ARM program
+status value will be PROGRAM_FINISHED
+
+TC_015_03 PASS
+Start TC_016_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_GetResult returns PL_ERROR
+
+TC_016_01 PASS
+Start TC_016_02
+ASSERTION: If NM or ARM program is not completed or
+not started, then the result PL_GetResult = PL_ERROR
+
+TC_016_02 PASS
+Start TC_016_03
+ASSERTION: At end of NM or ARM program its result
+will be written in argument of "result".
+The result PL_GetResult = PL_OK
+
+TC_016_03 PASS
+Start TC_017_02
+ASSERTION: PL_SetTimeou changes Timeout value without
+matter on PL_Sync or PL_SyncArray
+PL_Sync wiated 2012 mls
+
+TC_017_02 PASS
+Start TC_018_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_WriteRegister returns PL_ERROR
+
+TC_018_01 PASS
+Start TC_018_02
+ASSERTION: If address points into protected memory
+then PL_WriteRegiste returns PL_BADADDRESS
+Protected arrays:
+For ARM cluster_id=[-1,...,3]
+       protected [0x0,..., 0x7FFFC] [0xFFFFC -].
+Core PC 
+Processor PC addr 1fffffff size 1
+Processor PC addr 8000 size 1
+Core CCPU 
+Processor CCPU addr 1 size 1
+Processor CCPU addr 8000 size 1
+
+TC_018_02 PASS
+Start TC_018_03
+ASSERTION: If PL_WriteRegister returns PL_OK, then the value
+"value" is written to the register at the address "address"
+Processor CCPU
+Check_Value=0xaa value=0xaaaaaaaa
+Processor ARM
+Check_Value=0xaa value=0xaaaaaaaa
+
+TC_018_03 PASS
+Start TC_018_04
+ASSERTION: The result is PL_Write Register = PL_ERROR
+if the access argument references NM.
+
+TC_018_04 PASS
+Start TC_019_01
+ASSERTION: If argument access is not created by PL_GetAccess
+then PL_ReadRegister returns PL_ERROR
+
+TC_019_01 PASS
+Start TC_019_02
+ASSERTION: If address points into protected memory
+then PL_ReadRegister returns PL_BADADDRESS
+Protected arrays:
+For ARM cluster_id=[-1,...,3]
+       protected [0x0,..., 0x7FFFC] [0xFFFFС-].
+Core PC 
+Core CCPU 
+
+TC_019_02 PASS
+Start TC_019_03
+ASSERTION: If PL_ReadRegister returns PL_OK, then
+the register value at address "address"
+is written by pointer "returnValue"
+value=0x1
+value=0x1
+
+TC_019_03 PASS
+Start TC_019_04
+ASSERTION: The result is PL_ReadRegister = PL_ERROR
+if the access argument references NM.
+Processor NM
+
+TC_019_04 PASS

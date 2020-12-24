@@ -1,0 +1,17 @@
+#	Run TS007
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT7%
+-run 20
+cd ..\..\bin\TS007 && .\tc007_01
+-end
+-run 20
+cd ..\..\bin\TS007 && .\tc007_02
+-end
+-run 20
+cd ..\..\bin\TS007 && .\tc007_03 
+-end
+-run 20
+cd ..\..\bin\TS007 && .\tc007_04 
+-end

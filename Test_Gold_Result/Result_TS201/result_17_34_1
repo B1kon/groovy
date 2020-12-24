@@ -1,0 +1,14 @@
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS2\scen_201 ==========
+TEST: cd ..\..\bin\TS201 && .\tc201_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS201 && .\tc201_02
+RESULT: PASS
+
+**********
+SUMMARY RESULT:
+PASS:	2
+FAIL:	0
+UNTESTED:	0
+TIMEOUT:	0

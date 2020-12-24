@@ -1,0 +1,29 @@
+#	Run TS012
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT12%
+-run 20
+cd ..\..\bin\TS012 && .\tc012_01
+-end
+-run 20
+cd ..\..\bin\TS012 && .\tc012_02
+-end
+-run 20
+cd ..\..\bin\TS012 && .\tc012_03
+-end
+-run 20
+cd ..\..\bin\TS012 && .\tc012_04
+-end
+-run 20
+cd ..\..\bin\TS012 && .\tc012_05
+-end
+-run 20
+cd ..\..\bin\TS012 && .\tc012_06_0
+-end
+-run 20
+cd ..\..\bin\TS012 && .\tc012_06_1
+-end
+-run 20
+cd ..\..\bin\TS012 && .\tc012_07
+-end 

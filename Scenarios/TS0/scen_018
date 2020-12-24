@@ -1,0 +1,17 @@
+#	Run TS018
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT18%
+-run 60
+cd ..\..\bin\TS018 && .\tc018_01
+-end
+-run 60
+cd ..\..\bin\TS018 && .\tc018_02
+-end
+-run 60
+cd ..\..\bin\TS018 && .\tc018_03
+-end
+-run 60
+cd ..\..\bin\TS018 && .\tc018_04
+-end

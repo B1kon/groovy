@@ -1,0 +1,19 @@
+#	Run TS006
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT6%
+-run 20
+cd ..\..\bin\TS006 && .\tc006_01
+-end
+-run 20
+cd ..\..\bin\TS006 && .\tc006_02
+-end
+-run 20
+cd ..\..\bin\TS006 && .\tc006_03
+-end
+-run 20
+cd ..\..\bin\TS006 && .\tc006_04
+-end
+
+

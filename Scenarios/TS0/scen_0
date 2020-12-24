@@ -1,0 +1,67 @@
+#	Run Test_Suite_0
+#
+
+#	define seve result directory
+#
+-env ..\..\Scenarios\genrl_env
+-save %RSLT_TS0_all%
+
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_001
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_002
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_003
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_004
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_005
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_006
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_007
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_008
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_009
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_010
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_011
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_012
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_013
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_014
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_015
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_016
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_017
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_018
+-end_loop
+-loop_cnt 1
+..\..\Scenarios\TS0\scen_019
+-end_loop
+
+

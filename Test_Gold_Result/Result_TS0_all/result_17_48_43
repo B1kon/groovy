@@ -1,0 +1,384 @@
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_0 ==========
+TEST: cd ..\..\bin\TS001 && .\tc001_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS001 && .\tc001_02
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_001 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_001 ==========
+TEST: cd ..\..\bin\TS002 && .\tc002_01
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_002 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_002 ==========
+TEST: cd ..\..\bin\TS003 && .\tc003_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS003 && .\tc003_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS003 && .\tc003_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS003 && .\tc003_04
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS003 && .\tc003_05
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS003 && .\tc003_06
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_003 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_003 ==========
+TEST: cd ..\..\bin\TS004 && .\tc004_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS004 && .\tc004_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS004 && .\tc004_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS004 && .\tc004_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_004 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_004 ==========
+TEST: cd ..\..\bin\TS005 && .\tc005_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS005 && .\tc005_02
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_005 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_005 ==========
+TEST: cd ..\..\bin\TS006 && .\tc006_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS006 && .\tc006_02
+RESULT: FAIL
+
+**********
+TEST: cd ..\..\bin\TS006 && .\tc006_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS006 && .\tc006_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_006 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_006 ==========
+TEST: cd ..\..\bin\TS007 && .\tc007_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS007 && .\tc007_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS007 && .\tc007_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS007 && .\tc007_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_007 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_007 ==========
+TEST: cd ..\..\bin\TS008 && .\tc008_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS008 && .\tc008_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS008 && .\tc008_03_0
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS008 && .\tc008_03_1
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS008 && .\tc008_04_0
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS008 && .\tc008_04_1
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_008 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_008 ==========
+TEST: cd ..\..\bin\TS009 && .\tc009_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS009 && .\tc009_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS009 && .\tc009_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS009 && .\tc009_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_009 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_009 ==========
+TEST: cd ..\..\bin\TS010 && .\tc010_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_03_0
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_03_1
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_04_0
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_04_1
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_05
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_06_0
+RESULT: FAIL
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_06_1
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_07_0
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_07_1
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS010 && .\tc010_08
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_010 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_010 ==========
+TEST: cd ..\..\bin\TS011 && .\tc011_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_04
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_05
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_06
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_07_0
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_07_1
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS011 && .\tc011_08
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_011 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_011 ==========
+TEST: cd ..\..\bin\TS012 && .\tc012_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS012 && .\tc012_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS012 && .\tc012_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS012 && .\tc012_04
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS012 && .\tc012_05
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS012 && .\tc012_06_0
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS012 && .\tc012_06_1
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS012 && .\tc012_07
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_012 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_012 ==========
+TEST: cd ..\..\bin\TS013 && .\tc013_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS013 && .\tc013_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS013 && .\tc013_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS013 && .\tc013_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_013 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_013 ==========
+TEST: cd ..\..\bin\TS014 && .\tc014_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS014 && .\tc014_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS014 && .\tc014_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS014 && .\tc014_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_014 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_014 ==========
+TEST: cd ..\..\bin\TS015 && .\tc015_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS015 && .\tc015_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS015 && .\tc015_03
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_015 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_015 ==========
+TEST: cd ..\..\bin\TS016 && .\tc016_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS016 && .\tc016_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS016 && .\tc016_03
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_016 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_016 ==========
+TEST: cd ..\..\bin\TS017 && .\tc017_02
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_017 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_017 ==========
+TEST: cd ..\..\bin\TS018 && .\tc018_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS018 && .\tc018_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS018 && .\tc018_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS018 && .\tc018_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_018 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_018 ==========
+TEST: cd ..\..\bin\TS019 && .\tc019_01
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS019 && .\tc019_02
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS019 && .\tc019_03
+RESULT: PASS
+
+**********
+TEST: cd ..\..\bin\TS019 && .\tc019_04
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS0\scen_019 ==========
+========== END OF SCEN ..\..\Scenarios\TS0\scen_019 ==========
+SUMMARY RESULT:
+PASS:	83
+FAIL:	2
+UNTESTED:	0
+TIMEOUT:	0

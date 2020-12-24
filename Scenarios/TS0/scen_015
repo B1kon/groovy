@@ -1,0 +1,17 @@
+#	Run TS015
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT15%
+-run 60
+cd ..\..\bin\TS015 && .\tc015_01
+-end
+-run 60
+cd ..\..\bin\TS015 && .\tc015_02
+-end
+-run 60
+cd ..\..\bin\TS015 && .\tc015_03
+-end
+
+
+

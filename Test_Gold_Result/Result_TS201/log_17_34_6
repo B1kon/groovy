@@ -1,0 +1,21 @@
+========== LOG OF SCEN ..\..\Scenarios\TS2\scen_201 ==========
+Start TC_tc201_01
+ASSERTION: Measuring speed reading of external memory.
+Array: ARM [0x00300000 – 0x1FFFFFFF]
+SPEED READ area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=67108864b  IO_time=62 mls speed=1082401 b/mls 1032 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=100663296b  IO_time=156 mls speed=645277 b/mls 615 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=134217728b  IO_time=141 mls speed=951898 b/mls 907 MB/sec
+Average Speed Reading of external memory Speed=848375 b/mls 808 MB/sec
+
+TC_tc201_01 PASS
+Start TC_tc201_02
+ASSERTION: Measuring speed writing of external memory.
+Array: ARM [0x00300000 – 0x1FFFFFFF]
+SPEED WRITE area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=67108864b  IO_time=62 mls speed=1082401 b/mls 1032 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=100663296b  IO_time=140 mls speed=719023 b/mls 685 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=134217728b  IO_time=141 mls speed=951898 b/mls 907 MB/sec
+Average Speed Writing of external memory Speed=866811 b/mls 826 MB/sec
+
+TC_tc201_02 PASS

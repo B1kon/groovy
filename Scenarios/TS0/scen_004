@@ -1,0 +1,18 @@
+#	Run TS004
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT4%
+-run 20
+cd ..\..\bin\TS004 && .\tc004_01 
+-end
+-run 20
+cd ..\..\bin\TS004 && .\tc004_02
+-end
+-run 20
+cd ..\..\bin\TS004 && .\tc004_03
+-end
+-run 20
+cd ..\..\bin\TS004 && .\tc004_04
+-end
+

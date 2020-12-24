@@ -1,0 +1,6 @@
+Start TC_019_04
+ASSERTION: The result is PL_ReadRegister = PL_ERROR
+if the access argument references NM.
+Processor NM
+
+TC_019_04 PASS

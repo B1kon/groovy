@@ -1,0 +1,23 @@
+#	Run TS008
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT8%
+-run 25
+ cd ..\..\bin\TS008 && .\tc008_01
+-end
+-run 35
+ cd ..\..\bin\TS008 && .\tc008_02
+-end
+-run 35
+ cd ..\..\bin\TS008 && .\tc008_03_0
+-end
+-run 35
+cd ..\..\bin\TS008 && .\tc008_03_1 
+-end
+-run 35
+cd ..\..\bin\TS008 && .\tc008_04_0
+-end
+-run 35
+cd ..\..\bin\TS008 && .\tc008_04_1
+-end

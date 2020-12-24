@@ -1,0 +1,18 @@
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS1\scen_1 ==========
+TEST: cd ..\..\bin\TS101 && .\tc101_01
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS1\scen_101 ==========
+========== END OF SCEN ..\..\Scenarios\TS1\scen_101 ==========
+TEST: cd ..\..\bin\TS102 && .\tc102_01 600 21
+RESULT: PASS
+
+**********
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS1\scen_102 ==========
+========== END OF SCEN ..\..\Scenarios\TS1\scen_102 ==========
+SUMMARY RESULT:
+PASS:	2
+FAIL:	0
+UNTESTED:	0
+TIMEOUT:	0

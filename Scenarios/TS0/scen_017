@@ -1,0 +1,13 @@
+#	Run TS017
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT17%
+#-run 60
+#cd ..\..\bin\TS017 && .\tc017_01 
+#-end
+-run 60
+cd ..\..\bin\TS017 && .\tc017_02
+-end
+
+

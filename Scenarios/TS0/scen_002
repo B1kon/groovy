@@ -1,0 +1,10 @@
+#	Run TS002
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT2%
+-run 10
+cd ..\..\bin\TS002 && .\tc002_01
+-end
+
+

@@ -1,0 +1,93 @@
+========== LOG OF SCEN ..\..\Scenarios\TS2\scen_202 ==========
+Start TC_tc202_01
+ASSERTION: Measuring speed reading of external memory.
+Array: ARM [0x00300000 – 0x1FFFFFFF].  Big array. 256MB
+SPEED READ area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=67108864b  IO_time=78 mls speed=860370 b/mls 820 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=100663296b  IO_time=124 mls speed=811800 b/mls 774 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=134217728b  IO_time=141 mls speed=951898 b/mls 907 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=167772160b  IO_time=203 mls speed=826463 b/mls 788 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=201326592b  IO_time=202 mls speed=996666 b/mls 950 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=234881024b  IO_time=297 mls speed=790845 b/mls 754 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=268435456b  IO_time=249 mls speed=1078054 b/mls 1028 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=67108864b  IO_time=63 mls speed=1065220 b/mls 1015 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=100663296b  IO_time=124 mls speed=811800 b/mls 774 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=134217728b  IO_time=125 mls speed=1073741 b/mls 1023 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=167772160b  IO_time=203 mls speed=826463 b/mls 788 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=201326592b  IO_time=203 mls speed=991756 b/mls 945 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=234881024b  IO_time=281 mls speed=835875 b/mls 797 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=268435456b  IO_time=249 mls speed=1078054 b/mls 1028 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=67108864b  IO_time=62 mls speed=1082401 b/mls 1032 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=100663296b  IO_time=141 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=134217728b  IO_time=140 mls speed=958698 b/mls 914 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=167772160b  IO_time=219 mls speed=766082 b/mls 730 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=201326592b  IO_time=202 mls speed=996666 b/mls 950 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=234881024b  IO_time=328 mls speed=716100 b/mls 682 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=268435456b  IO_time=265 mls speed=1012963 b/mls 966 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=67108864b  IO_time=62 mls speed=1082401 b/mls 1032 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=100663296b  IO_time=141 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=134217728b  IO_time=125 mls speed=1073741 b/mls 1023 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=167772160b  IO_time=234 mls speed=716975 b/mls 683 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=201326592b  IO_time=202 mls speed=996666 b/mls 950 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=234881024b  IO_time=312 mls speed=752823 b/mls 717 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=268435456b  IO_time=266 mls speed=1009155 b/mls 962 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=33554432b  IO_time=46 mls speed=729444 b/mls 695 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=67108864b  IO_time=78 mls speed=860370 b/mls 820 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=100663296b  IO_time=141 mls speed=713924 b/mls 680 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=134217728b  IO_time=125 mls speed=1073741 b/mls 1023 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=167772160b  IO_time=249 mls speed=673783 b/mls 642 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=201326592b  IO_time=187 mls speed=1076612 b/mls 1026 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=234881024b  IO_time=281 mls speed=835875 b/mls 797 MB/sec
+SPEED READ area [0x300000, 0x1fffffff]  size=268435456b  IO_time=234 mls speed=1147160 b/mls 1094 MB/sec
+Average Speed Reading of external memory Speed=888953 b/mls 847 MB/sec
+
+TC_tc202_01 PASS
+Start TC_tc202_02
+ASSERTION: Measuring speed writing of external memory.
+Array: ARM [0x00300000 – 0x1FFFFFFF].  Big array. 256MB
+SPEED WRITE area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=67108864b  IO_time=62 mls speed=1082401 b/mls 1032 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=100663296b  IO_time=141 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=134217728b  IO_time=125 mls speed=1073741 b/mls 1023 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=167772160b  IO_time=218 mls speed=769597 b/mls 733 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=201326592b  IO_time=250 mls speed=805306 b/mls 767 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=234881024b  IO_time=358 mls speed=656092 b/mls 625 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=268435456b  IO_time=359 mls speed=747731 b/mls 713 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=67108864b  IO_time=62 mls speed=1082401 b/mls 1032 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=100663296b  IO_time=141 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=134217728b  IO_time=140 mls speed=958698 b/mls 914 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=167772160b  IO_time=265 mls speed=633102 b/mls 603 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=201326592b  IO_time=234 mls speed=860370 b/mls 820 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=234881024b  IO_time=312 mls speed=752823 b/mls 717 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=268435456b  IO_time=328 mls speed=818400 b/mls 780 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=67108864b  IO_time=93 mls speed=721600 b/mls 688 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=100663296b  IO_time=172 mls speed=585251 b/mls 558 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=134217728b  IO_time=172 mls speed=780335 b/mls 744 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=167772160b  IO_time=280 mls speed=599186 b/mls 571 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=201326592b  IO_time=266 mls speed=756866 b/mls 721 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=234881024b  IO_time=390 mls speed=602259 b/mls 574 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=268435456b  IO_time=374 mls speed=717741 b/mls 684 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=33554432b  IO_time=47 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=67108864b  IO_time=78 mls speed=860370 b/mls 820 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=100663296b  IO_time=140 mls speed=719023 b/mls 685 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=134217728b  IO_time=141 mls speed=951898 b/mls 907 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=167772160b  IO_time=234 mls speed=716975 b/mls 683 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=201326592b  IO_time=249 mls speed=808540 b/mls 771 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=234881024b  IO_time=343 mls speed=684784 b/mls 653 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=268435456b  IO_time=344 mls speed=780335 b/mls 744 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=33554432b  IO_time=62 mls speed=541200 b/mls 516 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=67108864b  IO_time=94 mls speed=713924 b/mls 680 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=100663296b  IO_time=171 mls speed=588674 b/mls 561 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=134217728b  IO_time=156 mls speed=860370 b/mls 820 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=167772160b  IO_time=250 mls speed=671088 b/mls 639 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=201326592b  IO_time=234 mls speed=860370 b/mls 820 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=234881024b  IO_time=359 mls speed=654264 b/mls 623 MB/sec
+SPEED WRITE area [0x300000, 0x1fffffff]  size=268435456b  IO_time=312 mls speed=860370 b/mls 820 MB/sec
+Average Speed Writing of external memory Speed=763990 b/mls 728 MB/sec
+
+TC_tc202_02 PASS

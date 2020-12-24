@@ -1,0 +1,42 @@
+#	Run TS010
+#
+
+-env ..\..\Scenarios\genrl_env
+-save %RSLT10%
+-run 20
+cd ..\..\bin\TS010 && .\tc010_01
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_02
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_03_0
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_03_1
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_04_0
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_04_1
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_05
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_06_0
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_06_1
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_07_0
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_07_1
+-end
+-run 20
+cd ..\..\bin\TS010 && .\tc010_08
+-end
+

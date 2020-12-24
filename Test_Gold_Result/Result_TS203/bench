@@ -1,0 +1,18 @@
+ 
+Start TC_tc203_01
+ASSERTION: Measuring speed writing and reading
+of external memory. Array: ARM [0x00300000 – 0x1FFFFFFF].
+Big array. 256MB
+
+run 1
+Average Speed READ of external memory Speed=810068 b/mls 771 MB/sec
+Average Speed WRITE of external memory Speed=847335 b/mls 807 MB/sec
+run 2
+Average Speed READ of external memory Speed=952574 b/mls 907 MB/sec
+Average Speed WRITE of external memory Speed=881893 b/mls 840 MB/sec
+run 3
+Average Speed READ of external memory Speed=1031230 b/mls 982 MB/sec
+Average Speed WRITE of external memory Speed=1019767 b/mls 971 MB/sec
+run 4
+Average Speed READ of external memory Speed=928991 b/mls 885 MB/sec
+Average Speed WRITE of external memory Speed=826486 b/mls 787 MB/sec

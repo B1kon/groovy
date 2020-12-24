@@ -1,0 +1,10 @@
+========== TEST RESULTS OF SCEN ..\..\Scenarios\TS2\scen_203 ==========
+TEST: cd ..\..\bin\TS203 && .\tc203_01
+RESULT: PASS
+
+**********
+SUMMARY RESULT:
+PASS:	1
+FAIL:	0
+UNTESTED:	0
+TIMEOUT:	0
